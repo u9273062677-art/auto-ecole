@@ -889,3 +889,59 @@ footer {
     }
 
 }
+
+/*section13*/
+
+.section13a {
+    color: #3B3230;
+    background-color: #E4E7EA;
+    border-radius: 15px;
+    font-family: Open sans;
+    font-size: 1em;
+    padding: 15px;
+}
+
+.section13 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.H2A {
+    font-family: Playfair Display;
+    font-size: 3em;
+    color: #3B3230;
+    margin: 10px;
+}
+
+
+.H2B {
+    font-family: Playfair Display;
+    font-size: 2em;
+    color: #3B3230;
+    margin: 10px;
+}
+
+.m1 {
+    color: #3B3230;
+    font-family: Open sans;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.m1:hover {
+    color: #B08D57;
+}
+
+/*mobile*/
+
+@media screen and (max-width: 1000px) {
+
+    .section13 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+
+
+}
